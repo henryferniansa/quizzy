@@ -1,16 +1,19 @@
-# quizes
+lutter Quiz App
+📱 Flutter-based quiz application designed for interactive learning with a smooth user experience.
+✨ Features
+- User-friendly login system with improved keyboard responsiveness.
+- Subject selection interface with dynamic navigation.
+- Optimized quiz flow with detailed result display.
+- Enhanced state management for better performance.
+- Firebase integration for authentication and database handling.
+⚙️ Optimizations & Fixes
+- Resolved navigation issues to prevent unwanted back transitions.
+- Improved keyboard handling with smooth animations.
+- Updated security rules for Firestore database access.
+- Refactored UI components for better scalability.
+🔧 Tech Stack
+- Flutter & Dart 🏗️
+- Firebase (Authentication & Firestore) 🔥
+- State Management Optimization (Using manual strategies) 🎯
+Feel free to modify or add more details to highlight any unique aspects of your project. 🚀
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
