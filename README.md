@@ -1,4 +1,4 @@
-lutter Quiz App
+Flutter Quiz App
 📱 Flutter-based quiz application designed for interactive learning with a smooth user experience.
 ✨ Features
 - User-friendly login system with improved keyboard responsiveness.
