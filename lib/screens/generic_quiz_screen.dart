@@ -102,6 +102,16 @@ class _GenericQuizScreenState extends State<GenericQuizScreen> with TickerProvid
   }
 
   void startOver() {
+    Navigator.pushReplacement(
+      context,
+      MaterialPageRoute(
+        builder: (context) => GenericQuizScreen(
+          subject: widget.subject,
+          databaseUrl: widget.databaseUrl,
+        ),
+      ),
+    );
+
     _controller.dispose();
     setState(() {
       index = 0;
@@ -109,8 +119,8 @@ class _GenericQuizScreenState extends State<GenericQuizScreen> with TickerProvid
       score = 0;
       isPressed = false;
       isAlreadySelected = false;
+      _questions = db.fetchQuestion();
     });
-    Navigator.pop(context);
     initializeController();
   }
 

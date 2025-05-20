@@ -59,8 +59,11 @@ class ResultBox extends StatelessWidget{
           const SizedBox(height: 20,),
           GestureDetector(
             onTap: () {
-              Navigator.of(context).pop();
-              Navigator.of(context).pop();
+              Navigator.pushAndRemoveUntil(
+                context,
+                MaterialPageRoute(builder: (context) => MataPelajaran()),
+                    (Route<dynamic> route) => false,
+              );
             },
             child: Container(
               alignment: Alignment.center,

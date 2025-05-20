@@ -2,18 +2,19 @@
 class Assets {
   Assets._();
 
+  static const String assetsImagesBiologi = 'assets/images/biologi.svg';
+  static const String assetsImagesFisika = 'assets/images/fisika.svg';
+  static const String assetsImagesKimia = 'assets/images/kimia.svg';
+  static const String assetsImagesMatematika = 'assets/images/matematika.svg';
   static const String fontsJuaRegular = 'assets/fonts/Jua-Regular.ttf';
-  static const String fontsLatoBlack = 'assets/fonts/Lato-Black.ttf';
-  static const String fontsLatoBlackItalic = 'assets/fonts/Lato-BlackItalic.ttf';
-  static const String fontsLatoBold = 'assets/fonts/Lato-Bold.ttf';
-  static const String fontsLatoBoldItalic = 'assets/fonts/Lato-BoldItalic.ttf';
-  static const String fontsLatoItalic = 'assets/fonts/Lato-Italic.ttf';
-  static const String fontsLatoLight = 'assets/fonts/Lato-Light.ttf';
-  static const String fontsLatoLightItalic = 'assets/fonts/Lato-LightItalic.ttf';
-  static const String fontsLatoRegular = 'assets/fonts/Lato-Regular.ttf';
-  static const String fontsLatoThin = 'assets/fonts/Lato-Thin.ttf';
-  static const String fontsLatoThinItalic = 'assets/fonts/Lato-ThinItalic.ttf';
-  static const String fontsOFL = 'assets/fonts/OFL.txt';
+  static const String imagesAndreaAvatar = 'assets/images/andrea-avatar.png';
+  static const String imagesBiologi = 'assets/images/biologi.png';
+  static const String imagesFisika = 'assets/images/fisika.png';
+  static const String imagesHome = 'assets/images/home.svg';
   static const String imagesHomeBg = 'assets/images/home_bg.png';
+  static const String imagesKimia = 'assets/images/kimia.png';
+  static const String imagesLoginBg = 'assets/images/login_bg.png';
+  static const String imagesMatematika = 'assets/images/matematika.png';
+  static const String imagesProgrammer= 'assets/images/programmer 1.svg';
 
 }
